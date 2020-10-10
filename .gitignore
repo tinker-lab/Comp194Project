@@ -10,6 +10,9 @@
 /[Ll]ogs/
 /[Mm]emoryCaptures/
 
+#ignore .gitconfig since it will be different on different os's
+.gitconfig
+
 # Never ignore Asset meta data
 !/[Aa]ssets/**/*.meta
 
